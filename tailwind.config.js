@@ -7,8 +7,8 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        Roboto: ["Roboto', sans-serif"],
-        Montserrat: ["Montserrat', sans-serif"],
+        Roboto: ["'Roboto', sans-serif"],
+        Montserrat: ["'Montserrat', sans-serif"],
       },
       colors: {
         primary: "#3F90FC",
