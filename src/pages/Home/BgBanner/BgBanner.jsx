@@ -1,7 +1,7 @@
 import React from 'react';
-import heroBG from "../../assets/images/heroBG.png";
+import heroBG from "../../../assets/images/heroBG.png";
 
-export default function Home() {
+export default function BgBanner() {
      return (
           <div
                style={{
