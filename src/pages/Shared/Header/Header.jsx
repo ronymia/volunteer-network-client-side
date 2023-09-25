@@ -1,6 +1,6 @@
 import React from 'react';
 import logo from "../../../assets/logos/Group 1329.png";
-import { NavLink } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 
 export default function Header() {
      return (
@@ -15,9 +15,9 @@ export default function Header() {
                          <li><NavLink>Events</NavLink></li>
                          <li><NavLink>Blog</NavLink></li>
                     </ul>
-                    <button type="button"
-                         className="bg-primary w-28 h-10 rounded-md text-white tracking-wider"
-                    >Register</button>
+                    <Link to={"auth/register"}
+                         className="bg-primary w-28 h-10 rounded-md text-white tracking-wider flex items-center justify-center"
+                    >Register</Link>
                     <button type="button"
                          className="bg-[#434141] w-28 h-10 rounded-md text-white tracking-wider"
                     >Admin</button>
