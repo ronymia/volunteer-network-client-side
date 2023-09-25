@@ -4,13 +4,13 @@ import { NavLink } from 'react-router-dom';
 
 export default function Header() {
      return (
-          <header className="w-full h-24 flex flex-row items-center justify-between px-24 relative z-50">
+          <header className="w-full h-24 flex flex-row items-center justify-between px-32 relative z-50">
                <img src={logo} alt="logo"
                     className="h-12"
                />
                <nav className="font-Roboto tracking-wider flex flex-row gap-x-2 items-center font-medium">
                     <ul className="flex flex-row gap-x-6 mr-6">
-                         <li><NavLink>Home</NavLink></li>
+                         <li><NavLink to={"/"}>Home</NavLink></li>
                          <li><NavLink>Donation</NavLink></li>
                          <li><NavLink>Events</NavLink></li>
                          <li><NavLink>Blog</NavLink></li>
