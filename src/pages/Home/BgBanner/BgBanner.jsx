@@ -7,7 +7,7 @@ export default function BgBanner() {
                style={{
                     backgroundImage: `url(${heroBG})`
                }}
-               className={"w-full h-[500px] absolute top-0 -z-50 opacity-20 blur-none"}
+               className={"w-full h-[500px] absolute top-0 -z-50 opacity-20 blur-none bg-top"}
           >
                {/* <img src={heroBG} alt="hell world" /> */}
           </div>
