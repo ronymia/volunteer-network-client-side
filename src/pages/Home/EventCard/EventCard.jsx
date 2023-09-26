@@ -1,7 +1,6 @@
 import React from 'react';
 
 export default function EventCard({ event }) {
-     console.log(event)
      const { title, image } = event;
      return (
           <div className='relative'>
