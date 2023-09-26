@@ -1,5 +1,6 @@
 import React from 'react';
 import { useForm } from "react-hook-form";
+import { Link } from 'react-router-dom';
 
 export default function Register() {
      const { register, handleSubmit, reset } = useForm();
@@ -51,6 +52,12 @@ export default function Register() {
                          className='w-full h-11 bg-primary text-lg text-white mt-2 font-semibold tracking-widest cursor-pointer'
                     />
                </form>
+               <p className='capitalize mt-5 block text-center font-medium'>
+                    already have an account ?
+                    <Link to={"/auth/login"}
+                         className='text-primary ml-1 hover:underline'
+                    >login here</Link>
+               </p>
           </div>
      )
 }
